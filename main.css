@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Public Sans', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: hsl(0, 0%, 100%);
+    padding: 2em 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-left: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.button {
+    padding: 0.9em 2.2em;
+    line-height: 20px;
+    border-style: none;
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    background: rgb(74, 151, 45);
+    background: linear-gradient(90deg, rgba(74, 151, 45, 1) 0%, rgba(10, 180, 220, 1) 100%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: rgb(140, 226, 133);
+    background: linear-gradient(90deg, rgba(140, 226, 133, 1) 0%, rgba(11, 225, 219, 1) 100%);
+}
+
+.title {
+    font-size: 22px;
+}
+
+main {
+    height: 70vh;
+    
+}
+
+main img {
+    float: right;
+    width: 37%;
+    background-image: url(./images/bg-intro-desktop.svg);
+    background-position:left top;
+    background-size:cover;
+}
+
+.mainDiv {
+    position: absolute;
+    left: 41.5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainDiv h1 {
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+    width: 40%;
+    color: hsl(233, 26%, 24%)
+}
+
+.mainDiv p {
+    font-weight: 300;
+    color: hsl(233, 8%, 62%);
+    width: 50%;
+    line-height: 25px;
+}
+
+.first-section {
+    background-color: hsl(220, 16%, 96%);
+
+}
+
+.first-section-title {
+    padding-top: 6em;
+    padding-left: 11em;
+}
+
+.first-section-heading {
+    font-weight: 400;
+    margin: 0;
+    width: 40%;
+    font-size: 34px;
+    color: hsl(233, 26%, 24%)
+}
+
+.first-section-para {
+    font-weight: 300;
+    color: hsl(233, 8%, 62%);
+    width: 45%;
+    line-height: 25px;
+}
+
+.first-section-grid {
+    display: flex;
+    margin: 5em 11em
+}
+
+.first-section-grid p {
+    width: 85%;
+}
+
+.first-section-grid h2 {
+    font-size: 24px;
+    width: 100%;
+    margin: 1.5em 0;
+}
+
+.second-section-flex {
+    display: flex;
+    margin: 5em 11em;
+}
+
+.second-section-first-div {
+    
+    margin-right: 2em;
+    width: 70%;
+}
+
+.second-section-second-div{
+    margin-right: 2em;
+}
+
+.second-section-third-div{
+    width: 80%;
+}
+
+.second-section-flex img {
+    height: 200px;
+    width: 300px;
+}
+
+.second-section h2 {
+    padding-left: 5.1em;
+}
+
+.second-section h3{
+    width: 60%;
+    color: hsl(233, 26%, 24%);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.second-section h4{
+    color: hsl(233, 8%, 62%);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.second-section p {
+    width: 70%;
+
+}
+
+footer{
+    background-color: hsl(233, 26%, 24%);
+    padding: 2em;
+    
+}
+.footer-div{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.first-anchor-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.second-anchor-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-footer-div h3{
+    margin: 0;
+    margin-bottom: 1.5em;
+    color: hsl(220, 16%, 96%);
+    margin-left: 0.4em;
+}
+
+.first-footer-div img{
+    margin-left: 0.5em;
+}
+
+footer a{
+    color: hsl(220, 16%, 96%);
+    text-decoration: none;
+    margin-top: 1em;
+    font-weight: 300;
+}
+
+.footer-para{
+    font-size: 13px;
+    width: 100%;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: hsl(136, 65%, 51%);
+  }
+

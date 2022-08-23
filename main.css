@@ -66,38 +66,37 @@ nav a {
 }
 
 main {
-    height: 70vh;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main img {
     float: right;
-    width: 37%;
     background-image: url(./images/bg-intro-desktop.svg);
     background-position:left top;
     background-size:cover;
 }
 
 .mainDiv {
-    position: absolute;
-    left: 41.5%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: 11em;
 }
 
 .mainDiv h1 {
     font-weight: 400;
-    font-size: 40px;
+    font-size: 50px;
     margin: 0;
-    width: 40%;
+    width: 50%;
     color: hsl(233, 26%, 24%)
 }
 
 .mainDiv p {
     font-weight: 300;
     color: hsl(233, 8%, 62%);
-    width: 50%;
+    width: 59%;
     line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 2em;
 }
 
 .first-section {
@@ -113,50 +112,36 @@ main img {
 .first-section-heading {
     font-weight: 400;
     margin: 0;
-    width: 40%;
-    font-size: 34px;
+    font-size: 35px;
     color: hsl(233, 26%, 24%)
 }
 
 .first-section-para {
     font-weight: 300;
     color: hsl(233, 8%, 62%);
-    width: 45%;
+    width: 50%;
     line-height: 25px;
+    font-size: 18px;
 }
 
 .first-section-grid {
     display: flex;
-    margin: 5em 11em
+    margin: 5em 11em; 
 }
 
 .first-section-grid p {
     width: 85%;
+    font-size: 16px;
 }
 
 .first-section-grid h2 {
     font-size: 24px;
-    width: 100%;
     margin: 1.5em 0;
 }
 
 .second-section-flex {
     display: flex;
     margin: 5em 11em;
-}
-
-.second-section-first-div {
-    
-    margin-right: 2em;
-    width: 70%;
-}
-
-.second-section-second-div{
-    margin-right: 2em;
-}
-
-.second-section-third-div{
-    width: 80%;
 }
 
 .second-section-flex img {
@@ -183,7 +168,7 @@ main img {
 
 .second-section p {
     width: 70%;
-
+    font-size: 14px;
 }
 
 footer{
